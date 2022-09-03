@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="fragments/heads :: headSection"></head>
+<body>
+<header th:replace="fragments/heads :: headerSection"></header>
+<main>
+  <h1>Step Two: Draw the Outer Shapes</h1>
+  <img th:src="@{/images/drawing_mandala.jpg}" width="500rem" height="auto">
+  <p>Using a radial symmetry tool, you can start drawing the shapes. A radial symmetry tool will start centered in the
+  center of the canvas, and will give you an option for how many symmetry lines you wish to use. You can also make
+  use of other tools, such as the circle tool, when adding shapes.</p>
+  <div th:replace="fragments/buttons"></div>
+</main>
+<footer th:replace="fragments/footer"></footer>
+</body>
+</html>

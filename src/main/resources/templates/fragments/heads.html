@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+  <head th:fragment="headSection">
+    <meta charset="UTF-8">
+    <title>How to Draw a Mandala</title>
+    <link rel="stylesheet" th:href="@{/styles.css}" />
+    <link rel="icon" th:href="@{/images/favicon.ico}" />
+  </head>
+
+  <header th:fragment="headerSection">
+    <nav>
+      <a th:href="@{/}"><img th:src="@{/images/mandala_finished.png}" class="logo" alt="logo"/></a>
+      <ul>
+        <li><a th:href="@{/step-one}">Step 1</a></li>
+        <li><a th:href="@{/step-two}">Step 2</a></li>
+        <li><a th:href="@{/step-three}">Step 3</a></li>
+      </ul>
+    </nav>
+  </header>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="fragments/heads :: headSection"></head>
+<body>
+    <header th:replace="fragments/heads :: headerSection"></header>
+    <main>
+        <h1>Step One: Draw the Core</h1>
+        <img th:src="@{/images/circle.jpg}" width="500rem" height="auto"/>
+        <p>In your drawing program, draw the core of your mandala. As you can see, I drew a circle. With IbisPaint,
+         the program automatically places the circle tool in the middle of the canvas, so it's easy to draw your
+        circle centered. This will make it easier to make a symmetrical pattern later on.</p>
+        <div th:replace="fragments/buttons"></div>
+    </main>
+    <footer th:replace="fragments/footer"></footer>
+</body>
+</html>

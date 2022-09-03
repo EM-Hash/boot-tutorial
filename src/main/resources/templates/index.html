@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="fragments/heads.html :: headSection"></head>
+<body>
+    <header th:replace="fragments/heads :: headerSection"></header>
+    <main>
+        <h1>How to Draw a Mandala</h1>
+        <p>This is a simple tutorial, showing how to draw and color a flower in a few simple steps!\n
+            By the end, you'll have something like the following: </p>
+        <img class="mandala_finished" th:src="@{/images/mandala_finished.png}" alt="Finished Mandala"/>
+        <p>Before we get started, you'll need a few things: </p>
+        <ol>
+            <li>A drawing device (I use a regular tablet)</li>
+            <li>A drawing application (I use IbisPaint)</li>
+        </ol>
+        <p>Ready? Let's get started!</p>
+        <div th:replace="fragments/buttons"></div>
+    </main>
+    <footer th:replace="fragments/footer"></footer>
+</body>
+</html>

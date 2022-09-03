@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="fragments/heads :: headSection"></head>
+<body>
+<header th:replace="fragments/heads :: headerSection"></header>
+<main>
+  <h1>Step Three: Color</h1>
+  <img th:src="@{/images/mandala_finished.png}" width="500rem" height="auto" />
+  <p>Once you've drawn your mandala, start coloring it in! I used a bucket tool, and cycled through my colors so
+  that two touching shapes did not have the same color.</p>
+  <p>Once you've colored in the mandala, you're finished! Congrats!</p>
+  <div th:replace="fragments/buttons"></div>
+</main>
+<footer th:replace="fragments/footer"></footer>
+</body>
+</html>

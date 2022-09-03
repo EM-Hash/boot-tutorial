@@ -1,0 +1,77 @@
+body{
+    background: pink;
+    color: rebeccapurple;
+    margin: 0;
+}
+
+nav{
+    height: 5rem;
+    background-color: purple;
+    padding: 0.5rem 0 1rem 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+nav *{
+    display: inline;
+    padding: 0;
+    font-size: x-large;
+}
+
+a{
+    color: mediumpurple;
+    text-decoration: none;
+}
+
+.logo{
+    height: 5rem;
+    width: auto;
+    padding-right: 1rem;
+}
+
+main{
+    padding-left: 5rem;
+}
+
+.mandala_finished{
+    width: 30rem;
+    height: auto;
+}
+
+.button-line{
+    padding: 3rem;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.button-line a{
+    height: 3rem;
+    width: 9rem;
+    cursor: pointer;
+    background: rgb(107,189,202);
+    background: linear-gradient(0deg, rgba(107,189,202,1) 0%, rgba(19,27,161,1) 70%);
+    border-radius: 1rem;
+    border: 3px outset #131ba1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.button-line a:active{
+    background: rgb(64,183,202);
+    background: linear-gradient(0deg, rgba(64,183,202,1) 0%, rgba(9,14,99,1) 70%);
+    border-radius: 1rem;
+    border: 3px inset #131ba1;
+    color: lightgrey;
+}
+
+footer{
+    background-color: purple;
+    color: mediumpurple;
+    display: flex;
+    justify-content: center;
+}
